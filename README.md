@@ -1,28 +1,35 @@
-<h1 align="center">xematin</h1>
+## 404 🔵
+
+<h1 align="center">TheMatin</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=3000&color=00FFAA&center=true&vCenter=true&lines=xematin%40dev%3A~%24+whoami;backend+developer;automation+engineer;python+specialist" />
+  <code>backend • automation • systems</code>
 </p>
 
----
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2500&pause=800&color=00F7FF&center=true&vCenter=true&lines=system+booting...;loading+modules...;automation+engine+ready;welcome+to+xematin" />
+</p>
+
+<p align="center">━━━━━━━━━━━━━━━━━━━━</p>
+
+## > boot_sequence
 
 ```bash
-xematin@dev:~$ whoami
-> Matin - Backend Developer & Automation Engineer
+initializing system...
 
-xematin@dev:~$ cat skills.txt
-> Python
-> Flask
-> Selenium
-> Linux
-> API Development
+xematin@core:~$ whoami
+> Matin Lashkari
+> backend developer / automation engineer
 
-xematin@dev:~$ cat interests.txt
-> automation systems
-> telegram bots
-> backend architecture
+xematin@core:~$ load_profile
+> python specialist
+> bot architecture designer
+> backend systems builder
 
-xematin@dev:~$ run projects.sh
-> building real-world tools
-> scraping systems
-> scalable bots
+xematin@core:~$ current_status
+> building scalable systems
+> automating workflows
+> exploring new technologies
+
+xematin@core:~$ echo $VISION
+> "create systems that run without human dependency"
