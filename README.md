@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-<h1 align="center">xematin</h1>
+<h1 align="center">TheMatin</h1>
 
 <p align="center">
   backend • automation • bots
