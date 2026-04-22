@@ -1,4 +1,4 @@
-## Hi there 👋
+## 404 🔵
 
 <h1 align="center">TheMatin</h1>
 
