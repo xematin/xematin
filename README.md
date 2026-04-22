@@ -3,33 +3,38 @@
 <h1 align="center">TheMatin</h1>
 
 <p align="center">
-  <code>backend • automation • systems</code>
+  Backend • Automation • Bots
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2500&pause=800&color=00F7FF&center=true&vCenter=true&lines=system+booting...;loading+modules...;automation+engine+ready;welcome+to+xematin" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&lines=Python+Developer;Automation+Engineer;Night+Coder" />
 </p>
 
-<p align="center">━━━━━━━━━━━━━━━━━━━━</p>
+<p align="center">───────────────</p>
 
-## > boot_sequence
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=xematin&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F7FF&icon_color=00F7FF&text_color=ffffff" />
+</p>
 
-```bash
-initializing system...
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xematin&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F7FF&text_color=ffffff" />
+</p>
 
-xematin@core:~$ whoami
-> Matin Lashkari
-> backend developer / automation engineer
+<p align="center">───────────────</p>
 
-xematin@core:~$ load_profile
-> python specialist
-> bot architecture designer
-> backend systems builder
+## /About
 
-xematin@core:~$ current_status
-> building scalable systems
-> automating workflows
-> exploring new technologies
+- backend-focused  
+- automation systems  
+- telegram bots  
+- linux & servers  
 
-xematin@core:~$ echo $VISION
-> "create systems that run without human dependency"
+## /Stack
+
+Python • Flask • Selenium • Linux • API
+
+<p align="center">───────────────</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=xematin&theme=github-dark&hide_border=true&bg_color=0d1117&color=00F7FF&line=00F7FF&point=ffffff" />
+</p>
