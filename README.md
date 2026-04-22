@@ -3,7 +3,7 @@
 <h1 align="center">TheMatin</h1>
 
 <p align="center">
-  backend • automation • bots
+  Backend • Automation • Bots
 </p>
 
 <p align="center">
@@ -22,16 +22,16 @@
 
 <p align="center">───────────────</p>
 
-## /about
+## /About
 
 - backend-focused  
 - automation systems  
 - telegram bots  
 - linux & servers  
 
-## /stack
+## /Stack
 
-python • flask • selenium • linux • api
+Python • Flask • Selenium • Linux • API
 
 <p align="center">───────────────</p>
 
