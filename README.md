@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&lines=Python+Developer;Automation+Engineer;Night+Coder" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&lines=System+Booting...;Python+Developer;Automation+Engineer;Night+Coder" />
 </p>
 
 <p align="center">───────────────</p>
