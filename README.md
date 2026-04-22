@@ -1,25 +1,28 @@
 <h1 align="center">xematin</h1>
 
 <p align="center">
-  <code>backend / automation / systems</code>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=3000&color=00FFAA&center=true&vCenter=true&lines=xematin%40dev%3A~%24+whoami;backend+developer;automation+engineer;python+specialist" />
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&size=18&lines=Python+Developer;Automation+Engineer;Building+Real+Systems" />
-</p>
+---
 
-<p align="center">───────────────</p>
+```bash
+xematin@dev:~$ whoami
+> Matin - Backend Developer & Automation Engineer
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=xematin&show_icons=true&theme=transparent&hide_border=true&title_color=00F7FF&icon_color=00F7FF&text_color=ffffff" />
-</p>
+xematin@dev:~$ cat skills.txt
+> Python
+> Flask
+> Selenium
+> Linux
+> API Development
 
-<p align="center">───────────────</p>
+xematin@dev:~$ cat interests.txt
+> automation systems
+> telegram bots
+> backend architecture
 
-## /focus
-
-```txt
-→ backend engineering
-→ automation & scraping
-→ telegram bot architecture
-→ linux servers & infra
+xematin@dev:~$ run projects.sh
+> building real-world tools
+> scraping systems
+> scalable bots
