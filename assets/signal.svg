@@ -15,7 +15,7 @@
 <path d="M988,27V12H973" fill="none" stroke="#0e7f94" stroke-width="1.6"/>
 <path d="M12,321V336H27" fill="none" stroke="#0e7f94" stroke-width="1.6"/>
 <path d="M988,321V336H973" fill="none" stroke="#0e7f94" stroke-width="1.6"/>
-<rect x="30" y="23" width="5" height="5" fill="#22e3ff"/><text x="43.0" y="30.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8.5" fill="#6b879a" letter-spacing="3">ACTIVITY SIGNAL</text><text x="970.0" y="30.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8" fill="#3e5666" text-anchor="end" letter-spacing="1.8">SYNC 2026-09-23 22:00Z · 53 SAMPLES</text>
+<rect x="30" y="23" width="5" height="5" fill="#22e3ff"/><text x="43.0" y="30.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8.5" fill="#6b879a" letter-spacing="3">ACTIVITY SIGNAL</text><text x="970.0" y="30.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8" fill="#3e5666" text-anchor="end" letter-spacing="1.8">SYNC 2026-09-23 22:08Z · 53 SAMPLES</text>
 <defs><linearGradient id="arg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22e3ff" stop-opacity=".26"/><stop offset="1" stop-color="#22e3ff" stop-opacity="0"/></linearGradient></defs>
 <rect x="30" y="50" width="618" height="200" fill="#070c11" stroke="#1d3240" stroke-width="1"/>
 <line x1="91.8" y1="50" x2="91.8" y2="250" stroke="#0d1720" stroke-width="1" stroke-dasharray="1 4"/><line x1="153.6" y1="50" x2="153.6" y2="250" stroke="#0d1720" stroke-width="1" stroke-dasharray="1 4"/><line x1="215.4" y1="50" x2="215.4" y2="250" stroke="#0d1720" stroke-width="1" stroke-dasharray="1 4"/><line x1="277.2" y1="50" x2="277.2" y2="250" stroke="#0d1720" stroke-width="1" stroke-dasharray="1 4"/><line x1="339.0" y1="50" x2="339.0" y2="250" stroke="#0d1720" stroke-width="1" stroke-dasharray="1 4"/><line x1="400.8" y1="50" x2="400.8" y2="250" stroke="#0d1720" stroke-width="1" stroke-dasharray="1 4"/><line x1="462.6" y1="50" x2="462.6" y2="250" stroke="#0d1720" stroke-width="1" stroke-dasharray="1 4"/><line x1="524.4" y1="50" x2="524.4" y2="250" stroke="#0d1720" stroke-width="1" stroke-dasharray="1 4"/><line x1="586.2" y1="50" x2="586.2" y2="250" stroke="#0d1720" stroke-width="1" stroke-dasharray="1 4"/><line x1="30" y1="83.3" x2="648" y2="83.3" stroke="#0d1720" stroke-width="1" stroke-dasharray="1 4"/><line x1="30" y1="116.7" x2="648" y2="116.7" stroke="#0d1720" stroke-width="1" stroke-dasharray="1 4"/><line x1="30" y1="150.0" x2="648" y2="150.0" stroke="#0d1720" stroke-width="1" stroke-dasharray="1 4"/><line x1="30" y1="183.3" x2="648" y2="183.3" stroke="#0d1720" stroke-width="1" stroke-dasharray="1 4"/><line x1="30" y1="216.7" x2="648" y2="216.7" stroke="#0d1720" stroke-width="1" stroke-dasharray="1 4"/>
@@ -35,42 +35,42 @@
 <rect x="668" y="50" width="310" height="266" rx="2" fill="#090e13" stroke="#1d3240" stroke-width="1"/>
 <rect x="668" y="50" width="5" height="5" fill="#ffb454"/>
 <text x="680.0" y="70.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8.5" fill="#6b879a" letter-spacing="2.8">LANGUAGE MIX</text>
-<rect x="676.0" y="82" width="125.2" height="11" fill="#22e3ff" opacity=".9"><animate attributeName="width" values="0;0;125.2" keyTimes="0;0.4706;1" dur="1.70s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
-<rect x="801.2" y="82" width="87.1" height="11" fill="#ffb454" opacity=".9"><animate attributeName="width" values="0;0;87.1" keyTimes="0;0.5000;1" dur="1.80s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
-<rect x="888.3" y="82" width="52.5" height="11" fill="#a78bfa" opacity=".9"><animate attributeName="width" values="0;0;52.5" keyTimes="0;0.5263;1" dur="1.90s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
-<rect x="940.8" y="82" width="16.1" height="11" fill="#8bff6e" opacity=".9"><animate attributeName="width" values="0;0;16.1" keyTimes="0;0.5500;1" dur="2.00s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
-<rect x="956.9" y="82" width="10.9" height="11" fill="#ff6b8a" opacity=".9"><animate attributeName="width" values="0;0;10.9" keyTimes="0;0.5714;1" dur="2.10s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
-<rect x="967.8" y="82" width="2.2" height="11" fill="#0e7f94" opacity=".9"><animate attributeName="width" values="0;0;2.2" keyTimes="0;0.5909;1" dur="2.20s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
+<rect x="676.0" y="82" width="152.1" height="11" fill="#22e3ff" opacity=".9"><animate attributeName="width" values="0;0;152.1" keyTimes="0;0.4706;1" dur="1.70s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
+<rect x="828.1" y="82" width="72.2" height="11" fill="#ffb454" opacity=".9"><animate attributeName="width" values="0;0;72.2" keyTimes="0;0.5000;1" dur="1.80s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
+<rect x="900.3" y="82" width="45.5" height="11" fill="#a78bfa" opacity=".9"><animate attributeName="width" values="0;0;45.5" keyTimes="0;0.5263;1" dur="1.90s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
+<rect x="945.8" y="82" width="13.3" height="11" fill="#8bff6e" opacity=".9"><animate attributeName="width" values="0;0;13.3" keyTimes="0;0.5500;1" dur="2.00s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
+<rect x="959.1" y="82" width="9.1" height="11" fill="#ff6b8a" opacity=".9"><animate attributeName="width" values="0;0;9.1" keyTimes="0;0.5714;1" dur="2.10s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
+<rect x="968.2" y="82" width="1.8" height="11" fill="#0e7f94" opacity=".9"><animate attributeName="width" values="0;0;1.8" keyTimes="0;0.5909;1" dur="2.20s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
 <rect x="676" y="117" width="6" height="6" rx="1" fill="#22e3ff"/>
 <text x="690.0" y="124.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#e2eff7" letter-spacing="1.1">PYTHON</text>
-<text x="970.0" y="124.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#6b879a" text-anchor="end" letter-spacing="0.6">42.6%</text>
+<text x="970.0" y="124.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#6b879a" text-anchor="end" letter-spacing="0.6">51.7%</text>
 <rect x="690" y="131" width="280" height="2.5" rx="1.2" fill="#142430"/>
-<rect x="690" y="131" width="119.3" height="2.5" rx="1.2" fill="#22e3ff" opacity=".85"><animate attributeName="width" values="0;0;119.3" keyTimes="0;0.4762;1" dur="2.10s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
+<rect x="690" y="131" width="144.9" height="2.5" rx="1.2" fill="#22e3ff" opacity=".85"><animate attributeName="width" values="0;0;144.9" keyTimes="0;0.4762;1" dur="2.10s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
 <rect x="676" y="147" width="6" height="6" rx="1" fill="#ffb454"/>
 <text x="690.0" y="154.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#e2eff7" letter-spacing="1.1">JAVASCRIPT</text>
-<text x="970.0" y="154.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#6b879a" text-anchor="end" letter-spacing="0.6">29.6%</text>
+<text x="970.0" y="154.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#6b879a" text-anchor="end" letter-spacing="0.6">24.6%</text>
 <rect x="690" y="161" width="280" height="2.5" rx="1.2" fill="#142430"/>
-<rect x="690" y="161" width="82.9" height="2.5" rx="1.2" fill="#ffb454" opacity=".85"><animate attributeName="width" values="0;0;82.9" keyTimes="0;0.5045;1" dur="2.22s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
+<rect x="690" y="161" width="68.7" height="2.5" rx="1.2" fill="#ffb454" opacity=".85"><animate attributeName="width" values="0;0;68.7" keyTimes="0;0.5045;1" dur="2.22s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
 <rect x="676" y="177" width="6" height="6" rx="1" fill="#a78bfa"/>
 <text x="690.0" y="184.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#e2eff7" letter-spacing="1.1">HTML</text>
-<text x="970.0" y="184.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#6b879a" text-anchor="end" letter-spacing="0.6">17.8%</text>
+<text x="970.0" y="184.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#6b879a" text-anchor="end" letter-spacing="0.6">15.5%</text>
 <rect x="690" y="191" width="280" height="2.5" rx="1.2" fill="#142430"/>
-<rect x="690" y="191" width="50.0" height="2.5" rx="1.2" fill="#a78bfa" opacity=".85"><animate attributeName="width" values="0;0;50.0" keyTimes="0;0.5299;1" dur="2.34s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
+<rect x="690" y="191" width="43.3" height="2.5" rx="1.2" fill="#a78bfa" opacity=".85"><animate attributeName="width" values="0;0;43.3" keyTimes="0;0.5299;1" dur="2.34s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
 <rect x="676" y="207" width="6" height="6" rx="1" fill="#8bff6e"/>
 <text x="690.0" y="214.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#e2eff7" letter-spacing="1.1">CSS</text>
-<text x="970.0" y="214.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#6b879a" text-anchor="end" letter-spacing="0.6">5.5%</text>
+<text x="970.0" y="214.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#6b879a" text-anchor="end" letter-spacing="0.6">4.5%</text>
 <rect x="690" y="221" width="280" height="2.5" rx="1.2" fill="#142430"/>
-<rect x="690" y="221" width="15.3" height="2.5" rx="1.2" fill="#8bff6e" opacity=".85"><animate attributeName="width" values="0;0;15.3" keyTimes="0;0.5528;1" dur="2.46s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
+<rect x="690" y="221" width="12.7" height="2.5" rx="1.2" fill="#8bff6e" opacity=".85"><animate attributeName="width" values="0;0;12.7" keyTimes="0;0.5528;1" dur="2.46s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
 <rect x="676" y="237" width="6" height="6" rx="1" fill="#ff6b8a"/>
 <text x="690.0" y="244.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#e2eff7" letter-spacing="1.1">TYPESCRIPT</text>
-<text x="970.0" y="244.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#6b879a" text-anchor="end" letter-spacing="0.6">3.7%</text>
+<text x="970.0" y="244.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#6b879a" text-anchor="end" letter-spacing="0.6">3.1%</text>
 <rect x="690" y="251" width="280" height="2.5" rx="1.2" fill="#142430"/>
-<rect x="690" y="251" width="10.4" height="2.5" rx="1.2" fill="#ff6b8a" opacity=".85"><animate attributeName="width" values="0;0;10.4" keyTimes="0;0.5736;1" dur="2.58s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
+<rect x="690" y="251" width="8.6" height="2.5" rx="1.2" fill="#ff6b8a" opacity=".85"><animate attributeName="width" values="0;0;8.6" keyTimes="0;0.5736;1" dur="2.58s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
 <rect x="676" y="267" width="6" height="6" rx="1" fill="#0e7f94"/>
 <text x="690.0" y="274.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#e2eff7" letter-spacing="1.1">OTHER</text>
-<text x="970.0" y="274.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#6b879a" text-anchor="end" letter-spacing="0.6">0.8%</text>
+<text x="970.0" y="274.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#6b879a" text-anchor="end" letter-spacing="0.6">0.6%</text>
 <rect x="690" y="281" width="280" height="2.5" rx="1.2" fill="#142430"/>
-<rect x="690" y="281" width="2.1" height="2.5" rx="1.2" fill="#0e7f94" opacity=".85"><animate attributeName="width" values="0;0;2.1" keyTimes="0;0.5926;1" dur="2.70s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
+<rect x="690" y="281" width="1.7" height="2.5" rx="1.2" fill="#0e7f94" opacity=".85"><animate attributeName="width" values="0;0;1.7" keyTimes="0;0.5926;1" dur="2.70s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0 0 1"/></rect>
 <line x1="676" y1="292" x2="970" y2="292" stroke="#142430" stroke-width="1"/>
 <text x="676.0" y="306.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="7.5" fill="#3e5666" letter-spacing="1.6">4 SOURCE REPOSITORIES ANALYSED</text>
 <rect x="12" y="12" width="976" height="36" fill="url(#scg)"><animate attributeName="y" values="12;300;12" dur="15s" repeatCount="indefinite"/></rect>

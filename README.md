@@ -20,8 +20,8 @@
 <a href="https://github.com/xematin/FarangisCoin"><img src="assets/module-03.svg?v=2a5ecad7" width="100%" alt="FarangisCoin — Notcoin-style Telegram mini app, shipped on Vercel."></a>
 
 
-<img src="assets/signal.svg?v=6f2e98e6" width="100%" alt="Contribution activity over the last 53 weeks and language mix across 4 source repositories">
+<img src="assets/signal.svg?v=75ee64fb" width="100%" alt="Contribution activity over the last 53 weeks and language mix across 4 source repositories">
 
 <div align="center"><sub>
-Panels are self-hosted SVG, redrawn daily by <a href="https://github.com/xematin/xematin/actions">GitHub Actions</a> · last sync 2026-09-23 22:00Z
+Panels are self-hosted SVG, redrawn daily by <a href="https://github.com/xematin/xematin/actions">GitHub Actions</a> · last sync 2026-09-23 22:08Z
 </sub></div>
