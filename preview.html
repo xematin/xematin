@@ -6,39 +6,21 @@
       python -m http.server 8777
       http://127.0.0.1:8777/preview.html
   Panels load as <img>, which is how GitHub renders them, and are shown on both
-  GitHub backgrounds because the windows are drawn on a transparent canvas.
+  GitHub backgrounds because the frames are drawn on a transparent canvas.
 -->
 <style>
   :root { color-scheme: dark }
   body { margin: 0; font: 12px ui-monospace, SFMono-Regular, Menlo, monospace }
-  section { padding: 30px 16px }
-  .dark { background: #0d1117 }
-  .light { background: #ffffff }
+  section { padding: 26px 16px }
+  .dark { background: #0d1117 } .light { background: #ffffff }
   .w { max-width: 1012px; margin: 0 auto }
-  img { display: block; width: 100%; margin-bottom: 4px }
-  .row { text-align: center; padding: 10px 0 18px }
-  .row img { display: inline-block; width: auto; height: 36px; margin: 0 5px }
-  h6 { margin: 0 auto 16px; max-width: 1012px; letter-spacing: 2px;
+  img { display: block; width: 100%; margin-bottom: 2px }
+  .row { text-align: center; padding: 8px 0 14px }
+  .row img { display: inline-block; width: auto; height: 40px; margin: 0 5px }
+  h6 { margin: 0 auto 14px; max-width: 1012px; letter-spacing: 2px;
        text-transform: uppercase; font-weight: 600 }
   .dark h6 { color: #484f58 } .light h6 { color: #afb8c1 }
-  .foot { text-align: center; padding-top: 6px }
+  .foot { text-align: center; padding-top: 4px }
   .dark .foot { color: #7d8590 } .light .foot { color: #59636e }
 </style>
-<section class="dark"><h6>github dark</h6><div class="w">
-  <img src="assets/hero.svg" alt="hero">
-  <div class="row">
-    <img src="assets/link-website.svg"><img src="assets/link-projects.svg"><img src="assets/link-gists.svg">
-  </div>
-  <img src="assets/stack.svg" alt="stack">
-  <img src="assets/activity.svg" alt="activity">
-  <div class="foot">Self-hosted SVG, redrawn daily by GitHub Actions</div>
-</div></section>
-<section class="light"><h6>github light</h6><div class="w">
-  <img src="assets/hero.svg" alt="hero">
-  <div class="row">
-    <img src="assets/link-website.svg"><img src="assets/link-projects.svg"><img src="assets/link-gists.svg">
-  </div>
-  <img src="assets/stack.svg" alt="stack">
-  <img src="assets/activity.svg" alt="activity">
-  <div class="foot">Self-hosted SVG, redrawn daily by GitHub Actions</div>
-</div></section>
+<section class="dark"><h6>github dark</h6><div class="w"><img src="assets/hero.svg"><div class="row"><img src="assets/link-website.svg"><img src="assets/link-projects.svg"><img src="assets/link-gists.svg"></div><img src="assets/stack.svg"><img src="assets/signal.svg"><div class="foot">Self-hosted SVG, redrawn daily by GitHub Actions</div></div></section><section class="light"><h6>github light</h6><div class="w"><img src="assets/hero.svg"><div class="row"><img src="assets/link-website.svg"><img src="assets/link-projects.svg"><img src="assets/link-gists.svg"></div><img src="assets/stack.svg"><img src="assets/signal.svg"><div class="foot">Self-hosted SVG, redrawn daily by GitHub Actions</div></div></section>

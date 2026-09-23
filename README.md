@@ -2,16 +2,16 @@
 
 <div align="center">
 
-<img src="assets/hero.svg?v=bfd9d714" width="100%" alt="matin — software developer, devops, automation &amp; robotics">
+<img src="assets/hero.svg?v=2711219e" width="100%" alt="Matin — software developer, devops engineer, automation &amp; robotics">
 
-<a href="https://sites.google.com/view/matinlashkari"><img src="assets/link-website.svg?v=bef37db4" height="36" alt="website"></a>&nbsp;&nbsp;<a href="https://github.com/xematin?tab=repositories"><img src="assets/link-projects.svg?v=e51d8442" height="36" alt="projects"></a>&nbsp;&nbsp;<a href="https://gist.github.com/xematin"><img src="assets/link-gists.svg?v=a6fe032b" height="36" alt="gists"></a>
+<a href="https://sites.google.com/view/matinlashkari"><img src="assets/link-website.svg?v=3ab5bf8c" height="40" alt="Website"></a>&nbsp;&nbsp;<a href="https://github.com/xematin?tab=repositories"><img src="assets/link-projects.svg?v=1bc2e012" height="40" alt="Projects"></a>&nbsp;&nbsp;<a href="https://gist.github.com/xematin"><img src="assets/link-gists.svg?v=91ada9c3" height="40" alt="Gists"></a>
 
 </div>
 
-<img src="assets/stack.svg?v=20f20718" width="100%" alt="Stack — languages, backend, infra, automation">
+<img src="assets/stack.svg?v=d833364d" width="100%" alt="Stack schematic — languages, frameworks, infrastructure, automation">
 
-<img src="assets/activity.svg?v=700a67b7" width="100%" alt="Contribution activity over 53 weeks, and language mix across 4 source repositories">
+<img src="assets/signal.svg?v=a6840860" width="100%" alt="Contribution activity over 53 weeks, and language mix across 4 source repositories">
 
 <div align="center"><sub>
-Self-hosted SVG, redrawn daily by <a href="https://github.com/xematin/xematin/actions">GitHub Actions</a> · last sync 2026-09-23 22:31Z
+Self-hosted SVG, redrawn daily by <a href="https://github.com/xematin/xematin/actions">GitHub Actions</a>
 </sub></div>

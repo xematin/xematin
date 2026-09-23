@@ -31,50 +31,51 @@ python -m http.server 8777
 
 …then open <http://127.0.0.1:8777/preview.html>. It loads each panel as an `<img>`, the
 way GitHub does, and shows them on both the light and the dark GitHub background — the
-windows are drawn on a transparent canvas, so both need a look.
+panels are rounded on a transparent canvas, so both are worth a look.
 
 ## The panels
 
-Three macOS terminal windows, one image each.
+Three engineering-drawing plates, each inside a macOS window frame.
 
-| File | Window | Live data |
+| File | Panel | Live data |
 |---|---|---|
-| `assets/hero.svg` | `whoami` — logotype, tagline, `about.txt` | no |
-| `assets/stack.svg` | `cat stack.txt` | no |
-| `assets/activity.svg` | contribution chart + language mix | yes |
-| `assets/link-*.svg` | the button row | no |
+| `assets/hero.svg` | Logotype, role readout, rotary encoder, drawing title block | no |
+| `assets/stack.svg` | Signal-bus schematic of the stack | no |
+| `assets/signal.svg` | Contribution scope + language mix | yes |
+| `assets/link-*.svg` | The button row | no |
 
-## Two rules the drawing code follows
-
-**Everything sits on a character grid.** Text is never flowed; each run is placed at a
-column, `cx(col)`, at 0.6em per character — the widest advance among the fonts in the
-stack. A reader whose monospace font is narrower gets slightly looser columns, never a
-collision, so the panels hold their shape on any machine.
+## The one rule the drawing code follows
 
 **Animation may only add, never hide.** A README image can be painted with its SMIL
 timeline still at `t=0`: offscreen, throttled, scaled, captured as a still, or under
 reduced motion. Anything whose first keyframe is invisible renders as an empty panel in
-exactly the situations you cannot reproduce. So there are no reveal fades, no typing
-wipes and no draw-on strokes — every glyph is in its final place at `t=0`, and the only
-moving parts (the cursor blink, the logotype's colour drift, the peak ripple) are
-correct frozen at their first frame.
+exactly the situations you cannot reproduce — which is how an early draft of this
+profile shipped a blank contribution chart. So there are no reveal fades and no draw-on
+strokes. Every mark is in its final place at `t=0`, and the moving parts — the encoder,
+the bus flow, the status LED, the peak ripple, the logotype's colour drift — all read
+correctly frozen at their first frame. The role line cycles, and its *first* entry is
+the resting frame, so a frozen panel still shows a role.
 
 ## Editing `config.json`
 
 - **`wordmark`** — drawn stroke by stroke from the `GLYPHS` table in `generate.py`.
   `A E F H I K L M N T V W X Y Z` and space are mapped; any other character falls back
   to outlined text. To add a letter, give it an advance width and one path per pen
-  stroke on the same 90-unit cap height (`y=20` top, `y=110` baseline).
-- **`shell_user`** — the name in each window's title bar and prompt.
-- **`about`** — `[label, value]` pairs. A row labelled `status` gets the green dot.
-- **`stack`** — group name to list. Groups are coloured in order: blue, mauve, peach,
-  teal. Keep a row under about 75 characters and it will not run past the window.
-- **`links`** — the buttons. `accent` is one of `blue`, `mauve`, `peach`, `teal`,
-  `green`, `yellow`.
+  stroke on the same 90-unit cap height (`y=20` top, `y=110` baseline). Its gradient is
+  `userSpaceOnUse` on purpose: a purely horizontal or vertical stroke has a zero-area
+  bounding box, and an `objectBoundingBox` gradient drops it — which is what silently
+  ate the T and the I.
+- **`shell_user`** — the name in each window's title bar.
+- **`roles`** — up to three; they cross-fade on a 3s beat.
+- **`titleblock`** — four `[label, value]` pairs. A cell labelled `STATUS` gets the
+  blinking green LED.
+- **`stack`** — four named groups. Two are drawn above the bus and two below, and chips
+  wrap automatically, so entries can be added without touching the layout.
+- **`links`** — the buttons. `accent` is one of `cyan`, `amber`, `violet`, `green`,
+  `rose`.
 
-Colours live in the `C` dictionary at the top of `generate.py` — Catppuccin Mocha, with
-the real macOS window-button colours for the three dots. Change `blue` and the whole
-profile re-themes.
+Colours live in the `C` dictionary at the top of `generate.py`, with the real macOS
+button colours for the three lights. Change `cyan` and the whole profile re-themes.
 
 ## The daily Action
 
@@ -84,8 +85,8 @@ changed. It needs no secret: the contribution calendar comes from the public
 raise the REST rate limit. If any repository's language data cannot be read the run
 raises rather than publishing a partial mix, and falls back to `data/snapshot.json`.
 
-Because each panel prints its own sync time, expect one commit a day. Move the `cron` to
-weekly if that is too noisy.
+Because the activity panel prints its own sync time, expect one commit a day. Move the
+`cron` to weekly if that is too noisy.
 
 ## Cache busting
 
