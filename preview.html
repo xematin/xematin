@@ -5,35 +5,40 @@
   Local preview. Serve the repository root and open this file:
       python -m http.server 8777
       http://127.0.0.1:8777/preview.html
-  The panels are loaded as <img>, which is exactly how GitHub renders them, so what you
-  see here is what the profile will look like.
+  Panels load as <img>, which is how GitHub renders them, and are shown on both
+  GitHub backgrounds because the windows are drawn on a transparent canvas.
 -->
 <style>
   :root { color-scheme: dark }
-  html, body { background: #0d1117; margin: 0 }
-  body { padding: 24px 16px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace }
+  body { margin: 0; font: 12px ui-monospace, SFMono-Regular, Menlo, monospace }
+  section { padding: 30px 16px }
+  .dark { background: #0d1117 }
+  .light { background: #ffffff }
   .w { max-width: 1012px; margin: 0 auto }
-  img { display: block; border-radius: 6px; width: 100% }
-  .row { text-align: center; padding: 14px 0 }
-  .row img { display: inline-block; width: auto; height: 40px; margin: 0 4px }
-  p { color: #7d8590; font-size: 12px; text-align: center; margin: 14px 0 }
-  a { color: #58a6ff }
+  img { display: block; width: 100%; margin-bottom: 4px }
+  .row { text-align: center; padding: 10px 0 18px }
+  .row img { display: inline-block; width: auto; height: 36px; margin: 0 5px }
+  h6 { margin: 0 auto 16px; max-width: 1012px; letter-spacing: 2px;
+       text-transform: uppercase; font-weight: 600 }
+  .dark h6 { color: #484f58 } .light h6 { color: #afb8c1 }
+  .foot { text-align: center; padding-top: 6px }
+  .dark .foot { color: #7d8590 } .light .foot { color: #59636e }
 </style>
-<div class="w">
+<section class="dark"><h6>github dark</h6><div class="w">
   <img src="assets/hero.svg" alt="hero">
   <div class="row">
-    <a href="#"><img src="assets/link-website.svg" alt="website"></a>
-    <a href="#"><img src="assets/link-projects.svg" alt="projects"></a>
-    <a href="#"><img src="assets/link-gists.svg" alt="gists"></a>
+    <img src="assets/link-website.svg"><img src="assets/link-projects.svg"><img src="assets/link-gists.svg">
   </div>
-  <p>Backend and automation engineer. I build Django services, Telegram bots and the Linux plumbing that keeps them running.</p>
   <img src="assets/stack.svg" alt="stack">
-  <p></p>
-  <img src="assets/module-01.svg" alt="module 01">
-  <p></p>
-  <img src="assets/module-02.svg" alt="module 02">
-  <p></p>
-  <img src="assets/module-03.svg" alt="module 03">
-  <p></p>
-  <img src="assets/signal.svg" alt="signal">
-</div>
+  <img src="assets/activity.svg" alt="activity">
+  <div class="foot">Self-hosted SVG, redrawn daily by GitHub Actions</div>
+</div></section>
+<section class="light"><h6>github light</h6><div class="w">
+  <img src="assets/hero.svg" alt="hero">
+  <div class="row">
+    <img src="assets/link-website.svg"><img src="assets/link-projects.svg"><img src="assets/link-gists.svg">
+  </div>
+  <img src="assets/stack.svg" alt="stack">
+  <img src="assets/activity.svg" alt="activity">
+  <div class="foot">Self-hosted SVG, redrawn daily by GitHub Actions</div>
+</div></section>

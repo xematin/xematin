@@ -2,26 +2,16 @@
 
 <div align="center">
 
-<img src="assets/hero.svg?v=d889f5b5" width="100%" alt="Matin — software developer / devops engineer / automation &amp; robotics">
+<img src="assets/hero.svg?v=bfd9d714" width="100%" alt="matin — software developer, devops, automation &amp; robotics">
 
-
-<a href="https://sites.google.com/view/matinlashkari"><img src="assets/link-website.svg?v=13b1d776" height="40" alt="Website"></a>&nbsp;&nbsp;<a href="https://github.com/xematin?tab=repositories"><img src="assets/link-projects.svg?v=18943390" height="40" alt="Projects"></a>&nbsp;&nbsp;<a href="https://gist.github.com/xematin"><img src="assets/link-gists.svg?v=2b006998" height="40" alt="Gists"></a>
+<a href="https://sites.google.com/view/matinlashkari"><img src="assets/link-website.svg?v=bef37db4" height="36" alt="website"></a>&nbsp;&nbsp;<a href="https://github.com/xematin?tab=repositories"><img src="assets/link-projects.svg?v=e51d8442" height="36" alt="projects"></a>&nbsp;&nbsp;<a href="https://gist.github.com/xematin"><img src="assets/link-gists.svg?v=a6fe032b" height="36" alt="gists"></a>
 
 </div>
 
-<p align="center"><sub>Backend and automation engineer. I build Django services, Telegram bots and the Linux plumbing that keeps them running.</sub></p>
+<img src="assets/stack.svg?v=20f20718" width="100%" alt="Stack — languages, backend, infra, automation">
 
-<img src="assets/stack.svg?v=877d7cd8" width="100%" alt="Stack schematic: languages · frameworks · infrastructure · automation">
-
-<a href="https://github.com/xematin/PoladApp"><img src="assets/module-01.svg?v=8258e626" width="100%" alt="PoladApp — Commerce backend, Telegram bot and storefront in one compose file."></a>
-
-<a href="https://github.com/xematin/Teloxy-Proxy"><img src="assets/module-02.svg?v=1c1988fb" width="100%" alt="Teloxy-Proxy — Single-page Telegram proxy finder — no build step, no backend."></a>
-
-<a href="https://github.com/xematin/FarangisCoin"><img src="assets/module-03.svg?v=2a5ecad7" width="100%" alt="FarangisCoin — Notcoin-style Telegram mini app, shipped on Vercel."></a>
-
-
-<img src="assets/signal.svg?v=75ee64fb" width="100%" alt="Contribution activity over the last 53 weeks and language mix across 4 source repositories">
+<img src="assets/activity.svg?v=978a27bc" width="100%" alt="Contribution activity over 53 weeks, and language mix across 4 source repositories">
 
 <div align="center"><sub>
-Panels are self-hosted SVG, redrawn daily by <a href="https://github.com/xematin/xematin/actions">GitHub Actions</a> · last sync 2026-09-23 22:08Z
+Self-hosted SVG, redrawn daily by <a href="https://github.com/xematin/xematin/actions">GitHub Actions</a> · last sync 2026-09-23 22:29Z
 </sub></div>

@@ -1,33 +1,23 @@
 {
   "user": "xematin",
+  "shell_user": "matin",
   "wordmark": "MATIN",
-  "roles": ["SOFTWARE DEVELOPER", "DEVOPS ENGINEER", "AUTOMATION & ROBOTICS"],
-  "callout_a": "GITHUB.COM/XEMATIN",
-  "callout_b": "ACTIVE SINCE 2022",
-  "titleblock": [
-    ["DISCIPLINE", "SOFTWARE · DEVOPS"],
-    ["FOCUS", "AUTOMATION SYSTEMS"],
-    ["BASE", "INTELLIA"],
-    ["STATUS", "OPEN TO WORK"]
-  ],
-  "bio": "Backend and automation engineer. I build Django services, Telegram bots and the Linux plumbing that keeps them running.",
-  "links": [
-    {"label": "WEBSITE",  "url": "https://sites.google.com/view/matinlashkari", "accent": "cyan"},
-    {"label": "PROJECTS", "url": "https://github.com/xematin?tab=repositories", "accent": "amber"},
-    {"label": "GISTS",    "url": "https://gist.github.com/xematin", "accent": "violet"}
+  "tagline": "Software Developer  \u00b7  DevOps  \u00b7  Automation & Robotics",
+  "about": [
+    ["role",   "Software Developer \u00b7 DevOps Engineer"],
+    ["focus",  "Automation systems, Telegram bots, Linux servers"],
+    ["base",   "Intellia"],
+    ["status", "available for work"]
   ],
   "stack": {
-    "LANGUAGES":      ["PYTHON", "TYPESCRIPT", "JAVASCRIPT", "BASH", "PHP", "SQL", "HTML/CSS"],
-    "FRAMEWORKS":     ["DJANGO", "DJANGO NINJA", "CELERY", "FLASK", "AIOGRAM", "REACT", "VITE", "TAILWIND"],
-    "INFRASTRUCTURE": ["LINUX", "DOCKER", "COMPOSE", "NGINX", "POSTGRES", "REDIS", "GH ACTIONS", "VERCEL"],
-    "AUTOMATION":     ["TELEGRAM BOT API", "N8N", "PLAYWRIGHT", "SELENIUM", "CRON", "WEBHOOKS"]
+    "languages":  ["Python", "TypeScript", "JavaScript", "Bash", "SQL"],
+    "backend":    ["Django", "Django Ninja", "Celery", "Flask", "aiogram"],
+    "infra":      ["Linux", "Docker", "Postgres", "Redis", "Nginx", "GitHub Actions"],
+    "automation": ["Telegram Bot API", "Playwright", "n8n", "Cron"]
   },
-  "modules": [
-    {"repo": "PoladApp", "desc": "Commerce backend, Telegram bot and storefront in one compose file.",
-     "tags": ["DJANGO", "NINJA", "CELERY", "AIOGRAM", "DOCKER"], "accent": "cyan"},
-    {"repo": "Teloxy-Proxy", "desc": "Single-page Telegram proxy finder — no build step, no backend.",
-     "tags": ["HTML", "JAVASCRIPT", "STATIC"], "accent": "amber"},
-    {"repo": "FarangisCoin", "desc": "Notcoin-style Telegram mini app, shipped on Vercel.",
-     "tags": ["TYPESCRIPT", "REACT", "MINI APP", "VERCEL"], "accent": "violet"}
+  "links": [
+    {"label": "website",  "url": "https://sites.google.com/view/matinlashkari", "accent": "blue"},
+    {"label": "projects", "url": "https://github.com/xematin?tab=repositories", "accent": "mauve"},
+    {"label": "gists",    "url": "https://gist.github.com/xematin", "accent": "peach"}
   ]
 }

@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 125 40" width="125" height="40" role="img" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace">
-<rect x=".5" y=".5" width="124" height="39" rx="2" fill="#0a1219" stroke="#1d3240" stroke-width="1"/>
-<path d="M5,13V5H13" fill="none" stroke="#22e3ff" stroke-width="1.4"/>
-<path d="M120,13V5H112" fill="none" stroke="#22e3ff" stroke-width="1.4"/>
-<path d="M5,27V35H13" fill="none" stroke="#22e3ff" stroke-width="1.4"/>
-<path d="M120,27V35H112" fill="none" stroke="#22e3ff" stroke-width="1.4"/>
-<text x="20.0" y="23.4" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#e2eff7" letter-spacing="2.6">WEBSITE</text>
-<g><path d="M99,20.0 H111 M106,15.5 L111,20.0 L106,24.5" fill="none" stroke="#22e3ff" stroke-width="1.4"/><animateTransform attributeName="transform" type="translate" values="0 0;4 0;0 0" dur="2.4s" begin="0.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/></g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 36" width="108" height="36" role="img" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Monaco,'Cascadia Mono','Segoe UI Mono','Roboto Mono','DejaVu Sans Mono',monospace"><rect x=".5" y=".5" width="107" height="35" rx="8" fill="#1e1e2e" stroke="#313244" stroke-width="1"/><circle cx="19" cy="18" r="4" fill="#89b4fa"/><text x="32.0" y="22.4" font-size="12.5" fill="#cdd6f4">website</text></svg>
