@@ -1,0 +1,44 @@
+name: refresh profile
+
+on:
+  schedule:
+    - cron: "17 4 * * *"          # once a day, 04:17 UTC
+  workflow_dispatch:              # or whenever you press the button
+  push:
+    branches: [main]
+    paths:
+      - config.json
+      - scripts/generate.py
+      - .github/workflows/refresh.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render panels
+        env:
+          # Only used to raise the REST rate limit; every endpoint read is public.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets data README.md
+          git diff --cached --quiet && echo "nothing changed" && exit 0
+          git commit -m "chore: refresh profile panels"
+          git push
