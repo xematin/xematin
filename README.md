@@ -10,8 +10,8 @@
 
 <img src="assets/stack.svg?v=20f20718" width="100%" alt="Stack — languages, backend, infra, automation">
 
-<img src="assets/activity.svg?v=978a27bc" width="100%" alt="Contribution activity over 53 weeks, and language mix across 4 source repositories">
+<img src="assets/activity.svg?v=700a67b7" width="100%" alt="Contribution activity over 53 weeks, and language mix across 4 source repositories">
 
 <div align="center"><sub>
-Self-hosted SVG, redrawn daily by <a href="https://github.com/xematin/xematin/actions">GitHub Actions</a> · last sync 2026-09-23 22:29Z
+Self-hosted SVG, redrawn daily by <a href="https://github.com/xematin/xematin/actions">GitHub Actions</a> · last sync 2026-09-23 22:31Z
 </sub></div>
