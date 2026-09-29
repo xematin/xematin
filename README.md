@@ -10,7 +10,7 @@
 
 <img src="assets/stack.svg?v=d833364d" width="100%" alt="Stack schematic — languages, frameworks, infrastructure, automation">
 
-<img src="assets/signal.svg?v=75421036" width="100%" alt="Contribution activity over 53 weeks, and language mix across 4 source repositories">
+<img src="assets/signal.svg?v=c79ce090" width="100%" alt="Contribution activity over 53 weeks, and language mix across 4 source repositories">
 
 <div align="center"><sub>
 Self-hosted SVG, redrawn daily by <a href="https://github.com/xematin/xematin/actions">GitHub Actions</a>
